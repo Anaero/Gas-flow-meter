@@ -1,0 +1,26 @@
+Sample description,In service,Inoculum only,Inoculum mass VS (g),Sample mass VS (g),Tumbler volume (ml)
+Inoculum 1,1,1,15.46,0,5
+Inoculum 2,1,1,15.48,0,5.2
+Inoculum 3,1,1,15.5,0,5.17
+Cellu 10,1,0,14.27,2.39,5.17
+Cellu 11,1,0,14.28,2.42,5
+Cellu 12,1,0,14.27,2.38,5
+1623 Mar,1,0,15.31,3.92,5.17
+1623 Mar,1,0,15.32,3.87,5
+1623 Mar,1,0,15.3,3.83,5
+1624 Agri,1,0,11.85,2.97,5
+1624 Agri,1,0,11.8,2.98,5.17
+1624 Agri,1,0,11.8,2.98,5.17
+54 Bryn 1,1,0,11.92,3.1,5.17
+54 Bryn 2,1,0,11.9,2.95,5.17
+54 Bryn 3,1,0,11.88,2.96,5.17
+End of data,,,,,
+,,,,,
+Notes:,,,,,
+,,,,,
+...To designate a reactor as inoculum only enter a 1 in column C otherwise enter 0,,,,,
+...Only tumblers which are marked as in service (a 1 in column B) will be monitored,,,,,
+...If a channel is not being used enter a 0 in column B,,,,,
+...The sample descriptions given in column A can be made up of any character or number combination but MUST NOT contain a comma! ,,,,,
+...All cells in rows 2 to 16 MUST be populated - do not leave any blank or empty!,,,,,
+...Cell A17 should contain the words 'End of data',,,,,
