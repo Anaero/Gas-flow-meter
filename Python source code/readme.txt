@@ -5,3 +5,6 @@ Startrun - used to transfer experimental data contained in setup.csv to Arduino 
 Filegrab - transfers eventlog, hourly summary, daily summary and 4-hourly snapshot
 Fastgrab - same as filegrab but only transfers eventlog and daily summary
 Monitor - simple monitor program to 'eavesdrop' on what's happening
+
+fastgrab/filegrab V2 - finds path for directory containing .exe file, checks for /data sub-directory and
+creates sub-directory if not found. All data files are then written to /data sub-directory
